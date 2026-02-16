@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div id="main">
+            <div class="min-h-screen flex flex-col items-center justify-center bg-gray-900">
+    <input id="inputField" type="text" class="w-96 mb-4 h-8 text-right text-2xl px-3 rounded bg-white">    
+<div class="grid grid-cols-5 grid-rows-4 gap-2 p-4 bg-gray-1600 rounded-xl">
+
+    
+    <button id="9" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">9</button>
+    <button id="8" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">8</button>
+    <button id="7" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">7</button>
+    <button id="/" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer">/</button>
+    <button id="clear" class="h-16 w-16 border-1 bg-orange-200 cursor-pointer col-start-5">C</button>
+
+    
+    <button id="4" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">4</button>
+    <button id="5" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">5</button>
+    <button id="6" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">6</button>
+    <button id="x" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer">*</button>
+    <button id="square" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer col-start-5">X²</button>
+
+    
+    <button id="1" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">1</button>
+    <button id="2" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">2</button>
+    <button id="3" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">3</button>
+    <button id="-" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer">-</button>
+    <button id="sqrt" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer col-start-5">√</button>
+
+    
+    <button id="0" class="number h-16 w-16 border-1 bg-gray-700 text-white cursor-pointer">0</button>
+    <button id="." class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer">.</button>
+    <button id="+" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer">+</button>
+    <button id="=" class="equal h-16 w-16 border-1 bg-orange-200 cursor-pointer">=</button>
+    <button id="factorial" class="operation h-16 w-16 border-1 bg-orange-200 cursor-pointer col-start-5">!</button>
+
+</div>
+
+    </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

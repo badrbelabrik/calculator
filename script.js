@@ -51,7 +51,7 @@ main.addEventListener("click", function (event) {
     else if (el.classList.contains("operation")) {
         input.value += el.textContent
     } else if (el.classList.contains("equal")) {
-    const operation = input.value.split(/([+\-*/])/);
+    const operation = input.value.split(/([+\-*/²√!])/);
 
     const a = Number(operation[0]);
     const op = operation[1];
@@ -61,7 +61,11 @@ main.addEventListener("click", function (event) {
         "+": addition,
         "-": substraction,
         "*": multiplication,
-        "/": division
+        "/": division,
+        "²": square,
+        "√": sqrt,
+        "!": factorial
+
     };
 
     input.value = operationsMap[op](a, b);

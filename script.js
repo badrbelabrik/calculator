@@ -65,7 +65,6 @@ main.addEventListener("click", function (event) {
         "²": square,
         "√": sqrt,
         "!": factorial
-
     };
 
     input.value = operationsMap[op](a, b);
